@@ -1,0 +1,106 @@
+.logoSaurobet11 {
+  position: absolute;
+  top: 14px;
+  left: 68px;
+  width: 161px;
+  height: 42px;
+  object-fit: cover;
+}
+.frameWrapper {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-8xs) var(--padding-0);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameChild {
+  position: relative;
+  width: 42px;
+  height: 42px;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.tShirtIcon {
+  position: relative;
+  width: 18.55px;
+  height: 18.55px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.r103403 {
+  position: relative;
+  font-weight: 500;
+}
+.tShirtParent {
+  border-radius: 7.42px;
+  background-color: var(--color-darkslategray-200);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7.42px;
+  font-size: var(--font-size-mini);
+}
+.depositar {
+  position: relative;
+  font-size: 13.41px;
+  letter-spacing: 0.13px;
+  line-height: 19.67px;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-1000);
+  text-align: left;
+}
+.botao2,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.botao2 {
+  cursor: pointer;
+  border: 0;
+  padding: 11.12930965423584px 14.839079856872559px;
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(214.58deg, #00cb08, #00bf6f);
+  width: 121px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.frameParent {
+  position: absolute;
+  top: 15px;
+  left: 856px;
+  width: 551px;
+  justify-content: flex-end;
+  gap: var(--gap-4xl);
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-1300);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 70px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 6.06px;
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

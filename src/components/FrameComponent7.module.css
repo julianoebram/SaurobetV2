@@ -1,0 +1,40 @@
+.usDollarCircled {
+  position: relative;
+  width: 67px;
+  height: 67px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.r000,
+.saldoNaConta {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 215.1px;
+}
+.r000 {
+  font-size: 32.69px;
+  font-weight: 500;
+  width: 175.66px;
+  height: 45.71px;
+  flex-shrink: 0;
+}
+.saldoNaContaParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.usDollarCircledParent {
+  width: 256px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 22.44px;
+  text-align: left;
+  font-size: var(--font-size-base-5);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

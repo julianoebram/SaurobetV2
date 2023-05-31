@@ -1,0 +1,39 @@
+.vectorIcon {
+  position: absolute;
+  top: 5.09px;
+  left: 0;
+  width: 26.18px;
+  height: 21.09px;
+}
+.div,
+.frameChild {
+  position: absolute;
+  top: 1.45px;
+}
+.frameChild {
+  left: 0.73px;
+  border-radius: 50%;
+  background-color: var(--color-orangered);
+  width: 8.73px;
+  height: 8.73px;
+}
+.div {
+  left: 4.36px;
+  font-weight: 500;
+}
+.ellipseParent {
+  position: absolute;
+  top: 0;
+  left: 21.09px;
+  width: 10.18px;
+  height: 13.09px;
+}
+.vectorParent {
+  position: relative;
+  width: 31px;
+  height: 31px;
+  text-align: center;
+  font-size: 6.06px;
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,128 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 244px;
+  height: 1795px;
+}
+.procureJogos {
+  position: relative;
+  font-weight: 500;
+}
+.iconlylightOutlinearrowD {
+  position: relative;
+  width: 24.06px;
+  height: 24.06px;
+}
+.searchbar {
+  position: absolute;
+  top: -0.78px;
+  left: -0.78px;
+  border-radius: var(--br-39xl);
+  background-color: var(--color-gray-200);
+  border: 0.8px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 205.55px;
+  height: 47.29px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-6xl);
+  align-items: center;
+  justify-content: space-between;
+}
+.diceIcon,
+.searchbarWrapper {
+  position: relative;
+  width: 98px;
+  height: 40px;
+}
+.diceIcon {
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.diceParent,
+.frameContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+.diceParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  align-items: center;
+  gap: 7.42px;
+}
+.frameContainer {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.recentes {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-lavender);
+  text-align: left;
+}
+.frameGroup,
+.tShirtIcon {
+  position: relative;
+  width: 119.65px;
+  height: 375.66px;
+}
+.tShirtIcon {
+  width: 18.55px;
+  height: 18.55px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent1 {
+  position: relative;
+  width: 120px;
+  height: 274px;
+}
+.bongContainer,
+.frameParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.bongContainer {
+  border-radius: 7.42px;
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gray-200);
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  align-items: center;
+  gap: 7.42px;
+}
+.frameParent {
+  position: absolute;
+  top: 91px;
+  left: 22px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-42xl);
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 244px;
+  height: 1795px;
+  text-align: center;
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

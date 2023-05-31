@@ -1,0 +1,102 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 244px;
+  height: 1795px;
+}
+.tShirtIcon {
+  position: relative;
+  width: 18.55px;
+  height: 18.55px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.premierLeague {
+  position: relative;
+  font-weight: 500;
+}
+.frameContainer,
+.tShirtParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.tShirtParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  align-items: center;
+  gap: 7.42px;
+}
+.frameContainer {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.top10Hoje {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-lavender);
+  text-align: left;
+}
+.frameGroup,
+.frameParent1 {
+  position: absolute;
+  top: 157px;
+  left: 0;
+  width: 119.65px;
+  height: 375.66px;
+}
+.frameParent1 {
+  top: 573.38px;
+}
+.bongParent3 {
+  position: absolute;
+  top: 1055px;
+  left: 0;
+  border-radius: 7.42px;
+  background-color: var(--color-darkslategray-1000);
+  border: 1px solid var(--color-gray-200);
+  display: flex;
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7.42px;
+}
+.frameParent,
+.frameParent3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 97.65px;
+  height: 121.62px;
+}
+.frameParent {
+  top: 91px;
+  left: 22px;
+  background-color: var(--color-gray-300);
+  width: 137.65px;
+  height: 1095.81px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 244px;
+  height: 1795px;
+  text-align: center;
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

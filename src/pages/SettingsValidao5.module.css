@@ -1,0 +1,68 @@
+.settingsValidao5Child {
+  position: absolute;
+  top: 172px;
+  left: 314px;
+  background-color: var(--color-darkslategray-100);
+  width: 996px;
+  height: 1px;
+}
+.perfil {
+  position: relative;
+  font-weight: 500;
+}
+.perfilWrapper {
+  border-radius: var(--br-5xs);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-2xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--color-lightyellow);
+}
+.documentosWrapper {
+  background-color: var(--color-gray-100);
+}
+.documentosWrapper,
+.histricoDeJogoWrapper {
+  border-radius: var(--br-5xs);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-2xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameParent {
+  position: absolute;
+  top: 100px;
+  left: calc(50% - 401px);
+  width: 1009px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.settingsValidao5Item {
+  position: absolute;
+  top: calc(50% - 664px);
+  left: calc(50% - 794px);
+  background-color: var(--color-gray-1500);
+  backdrop-filter: blur(17px);
+  width: 1584px;
+  height: 1603px;
+}
+.settingsValidao5 {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 1480px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

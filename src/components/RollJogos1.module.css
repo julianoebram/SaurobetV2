@@ -1,0 +1,65 @@
+.casinoAoVivo {
+  position: absolute;
+  top: 41px;
+  left: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 434px;
+}
+.gatesOf {
+  margin-block-start: 0;
+  margin-block-end: 1.29px;
+}
+.olympus {
+  margin: 0;
+}
+.gatesOfOlympusContainer {
+  position: relative;
+  line-height: 123%;
+  font-weight: 500;
+}
+.gatesOfOlympusFrame,
+.gatesOfOlympusWrapper {
+  border-radius: var(--br-5xs);
+  width: 228px;
+  height: 324px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background-image: url(/public/rectangle-15445@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.gatesOfOlympusFrame {
+  background-image: url(/public/rectangle-15449@2x.png);
+}
+.frameParent,
+.rollJogos {
+  position: absolute;
+  width: 1248px;
+}
+.frameParent {
+  top: 95px;
+  left: 0;
+  height: 324px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  font-size: 26.39px;
+}
+.rollJogos {
+  top: 966px;
+  left: 278px;
+  height: 419px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

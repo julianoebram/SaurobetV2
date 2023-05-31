@@ -1,0 +1,124 @@
+.frameChild {
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.frameChild,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 244px;
+  height: 1795px;
+}
+.tShirtIcon {
+  position: relative;
+  width: 18.55px;
+  height: 18.55px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.esportes {
+  position: relative;
+  font-weight: 500;
+}
+.tShirtGroup,
+.tShirtParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7.42px;
+}
+.tShirtGroup {
+  background-color: var(--color-gray-100);
+}
+.tShirtIcon4 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent {
+  position: absolute;
+  top: 15px;
+  left: 248px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.betChild {
+  position: absolute;
+  top: 130px;
+  left: 334px;
+  width: 364px;
+  height: 131px;
+}
+.all {
+  position: relative;
+  letter-spacing: 0.11px;
+  line-height: 21.53px;
+  font-weight: 500;
+}
+.allWrapper {
+  flex: 1;
+  border-radius: 9.19px 0 0 9.19px;
+  background-color: var(--color-gray-100);
+  padding: 11.12930965423584px 14.839079856872559px;
+  justify-content: center;
+}
+.allWrapper,
+.frameGroup,
+.otherWrapper {
+  height: 33.33px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+.otherWrapper {
+  flex: 1;
+  border-radius: 0 9.19px 9.19px 0;
+  background-color: #11211d;
+  padding: 11.12930965423584px 14.839079856872559px;
+  justify-content: center;
+}
+.frameGroup {
+  position: absolute;
+  top: 401.84px;
+  left: 671px;
+  border-radius: 9.19px;
+  width: 339px;
+  overflow: hidden;
+  padding: 12.789274215698242px var(--padding-0);
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 15.07px;
+}
+.logoSaurobet11 {
+  position: absolute;
+  top: 14px;
+  left: 68px;
+  width: 161px;
+  height: 42px;
+  object-fit: cover;
+}
+.bet {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 1480px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

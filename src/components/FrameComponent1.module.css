@@ -1,0 +1,96 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 98px;
+  height: 1795px;
+}
+.tShirtIcon {
+  position: relative;
+  width: 18.55px;
+  height: 18.55px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameContainer,
+.tShirtWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.tShirtWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  align-items: center;
+}
+.frameContainer {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameGroup {
+  position: absolute;
+  top: 157px;
+  left: 0;
+  width: 119.65px;
+  height: 375.66px;
+}
+.rece {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.frameParent1 {
+  position: absolute;
+  top: 573.38px;
+  left: 0;
+  width: 119.65px;
+  height: 375.66px;
+}
+.bongWrapper3 {
+  position: absolute;
+  top: 1055px;
+  left: 0;
+  border-radius: 7.42px;
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gray-200);
+  display: flex;
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameParent3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 97.65px;
+  height: 121.62px;
+}
+.frameParent,
+.rectangleParent {
+  position: absolute;
+  top: 91px;
+  left: 22px;
+  width: 137.65px;
+  height: 1095.81px;
+}
+.rectangleParent {
+  top: 0;
+  left: 0;
+  width: 244px;
+  height: 1795px;
+  text-align: left;
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--color-lavender);
+  font-family: var(--font-poppins);
+}

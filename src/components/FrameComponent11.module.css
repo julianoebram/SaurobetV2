@@ -1,0 +1,45 @@
+.diceIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.informaesDaConta {
+  position: relative;
+  font-weight: 500;
+}
+.diceParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  width: 213px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-2xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7.42px;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  gap: var(--gap-3xs);
+}
+.frameWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-1200);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 283px;
+  padding: var(--padding-lgi) var(--padding-12xl);
+  text-align: center;
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

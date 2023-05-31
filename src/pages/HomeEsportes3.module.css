@@ -1,0 +1,396 @@
+.frameChild {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.liverpoolFc,
+.rectangleParent {
+  display: flex;
+  align-items: center;
+}
+.liverpoolFc {
+  position: relative;
+  line-height: 123%;
+  font-weight: 500;
+  justify-content: center;
+  width: 131.36px;
+  height: 59.75px;
+  flex-shrink: 0;
+}
+.rectangleParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.span {
+  font-size: 29.14px;
+}
+.x1TxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.frameGroup,
+.x1 {
+  display: flex;
+  align-items: center;
+}
+.x1 {
+  position: relative;
+  width: 159.75px;
+  height: 75px;
+  flex-shrink: 0;
+  font-size: 44.81px;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-11xs);
+  font-size: 14.95px;
+}
+.frameInner {
+  align-self: stretch;
+  background-color: var(--color-darkslateblue-100);
+  border: 1px solid var(--text);
+  box-sizing: border-box;
+  height: 1px;
+}
+.b,
+.div,
+.frameInner {
+  position: relative;
+}
+.div {
+  font-weight: 500;
+}
+.b {
+  color: var(--text);
+}
+.parent {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray-200);
+  height: 45.74px;
+  display: flex;
+  flex-direction: row;
+  padding: 12.726252555847168px var(--padding-9xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.div1 {
+  position: relative;
+  font-weight: 500;
+  color: var(--text);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  text-align: justify;
+  color: var(--color-mediumspringgreen);
+}
+.aprWed,
+.tShirtIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.tShirtIcon {
+  width: 21.21px;
+  height: 21.21px;
+  overflow: hidden;
+}
+.aprWed {
+  font-weight: 500;
+  display: inline-block;
+  width: 110px;
+}
+.tShirtParent {
+  border-radius: 62.89px;
+  height: 45.74px;
+  display: flex;
+  flex-direction: row;
+  padding: 12.726252555847168px var(--padding-lg);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8.48px;
+}
+.soccer {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 49px;
+  flex-shrink: 0;
+}
+.frameDiv,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frameParent {
+  position: absolute;
+  top: 572.22px;
+  left: 280.22px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-1100);
+  border: 0.8px solid var(--color-darkslategray-100);
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-xl);
+  align-items: center;
+  gap: var(--gap-16xl);
+}
+.icon,
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.rectangleIcon {
+  border-radius: var(--br-5xs);
+  width: 1129px;
+  height: 249px;
+}
+.icon {
+  width: 1216px;
+  height: 393px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 95px;
+  left: 278px;
+  border-radius: var(--br-xs);
+  width: 1129px;
+  height: 249px;
+  overflow: hidden;
+}
+.aproveiteAsMelhores {
+  position: relative;
+  font-size: 19.34px;
+  font-weight: 500;
+}
+.championsAquiParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.saibaMais {
+  position: relative;
+  letter-spacing: 0.19px;
+  line-height: 27.85px;
+  font-weight: 500;
+  text-shadow: 0 5.062802314758301px 5.06px rgba(0, 0, 0, 0.25);
+}
+.botao3,
+.frameParent1 {
+  display: flex;
+  justify-content: center;
+}
+.botao3 {
+  border-radius: 62.89px;
+  background-color: var(--color-gray-100);
+  height: 51.89px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 12.726252555847168px 35.448184967041016px;
+  box-sizing: border-box;
+  align-items: center;
+  font-size: 16.45px;
+}
+.frameParent1 {
+  position: absolute;
+  top: 155px;
+  left: 333px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: 31.34px;
+}
+.frameChild1,
+.rectangleDiv {
+  position: relative;
+  border-radius: 7.47px;
+  width: 184px;
+  height: 5px;
+}
+.rectangleDiv {
+  background-color: var(--text);
+}
+.frameChild1 {
+  background: linear-gradient(238.97deg, #00fa0a, #0046fa);
+}
+.rectangleContainer {
+  position: absolute;
+  top: 325px;
+  left: 468px;
+  height: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.47px;
+}
+.tShirtIcon3 {
+  position: relative;
+  width: 18.55px;
+  height: 18.55px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tShirtParent1,
+.tShirtParent2 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7.42px;
+}
+.tShirtParent2 {
+  background-color: var(--color-gray-100);
+}
+.tShirtIcon7 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent2 {
+  position: absolute;
+  top: 15px;
+  left: 248px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.tShirtParent6 {
+  border-radius: 62.89px;
+  background-color: var(--color-gray-200);
+  height: 45.74px;
+  padding: 12.726252555847168px 35.448184967041016px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 8.48px;
+}
+.frameParent3,
+.tShirtParent11,
+.tShirtParent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tShirtParent11 {
+  border-radius: 62.89px;
+  background-color: var(--color-gray-100);
+  height: 45.74px;
+  padding: 12.726252555847168px 35.448184967041016px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 8.48px;
+}
+.frameParent3 {
+  position: absolute;
+  top: 368px;
+  left: 334px;
+  width: 1017px;
+  justify-content: space-between;
+}
+.procureJogos {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 29.56px;
+  font-weight: 500;
+}
+.iconlylightOutlinearrowD {
+  position: relative;
+  width: 24.06px;
+  height: 24.06px;
+}
+.searchbar {
+  position: absolute;
+  top: 446.22px;
+  left: 464.22px;
+  border-radius: var(--br-39xl);
+  background-color: var(--color-gray-200);
+  border: 0.8px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 756.55px;
+  height: 41.55px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-6xl);
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.div4,
+.ellipseDiv {
+  position: absolute;
+  top: 2px;
+}
+.ellipseDiv {
+  left: 1px;
+  border-radius: 50%;
+  background-color: var(--color-orangered);
+  width: 12px;
+  height: 12px;
+}
+.div4 {
+  left: 6px;
+  font-weight: 500;
+}
+.ellipseParent {
+  position: absolute;
+  top: 118px;
+  left: 111px;
+  width: 14px;
+  height: 18px;
+  font-size: 8.33px;
+}
+.div5 {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  font-weight: 500;
+}
+.ellipseGroup {
+  position: absolute;
+  top: 167px;
+  left: 111px;
+  width: 14px;
+  height: 18px;
+  font-size: 8.33px;
+}
+.homeEsportes3 {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 1480px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

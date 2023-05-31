@@ -1,0 +1,161 @@
+.histricoDeJogo {
+  position: relative;
+  font-size: var(--font-size-mid);
+  text-transform: uppercase;
+  color: var(--text);
+}
+.b,
+.futebol,
+.x0Aposta {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24.31px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.futebol {
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--text);
+  width: 79px;
+}
+.b,
+.x0Aposta {
+  width: 106px;
+}
+.x0Aposta {
+  width: 115px;
+}
+.futebolParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.abrir,
+.b1 {
+  position: relative;
+}
+.b1 {
+  font-size: 14.18px;
+  letter-spacing: 0.1px;
+  line-height: 24.31px;
+  display: flex;
+  color: var(--color-lightgreen);
+  text-align: right;
+  align-items: center;
+  width: 180px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.abrir {
+  letter-spacing: 0.13px;
+  line-height: 19.67px;
+}
+.botao1,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.botao1 {
+  border-radius: var(--br-5xs);
+  background: linear-gradient(214.58deg, #00cb08, #00bf6f);
+  width: 76px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 11.12930965423584px 14.839079856872559px;
+  box-sizing: border-box;
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--color-gray-1000);
+}
+.frameParent {
+  gap: var(--gap-2xl);
+}
+.line,
+.lineInner {
+  border-radius: var(--br-5xs);
+}
+.lineInner {
+  position: absolute;
+  height: 39.68%;
+  width: 92.15%;
+  top: 28.57%;
+  right: 2.85%;
+  bottom: 31.75%;
+  left: 4.99%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line {
+  position: relative;
+  background-color: var(--color-gray-100);
+  border: 2px solid var(--color-darkslategray-600);
+  box-sizing: border-box;
+  width: 701px;
+  height: 63px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameGroup {
+  position: absolute;
+  height: 39.68%;
+  width: 91.3%;
+  top: 28.57%;
+  right: 3.28%;
+  bottom: 31.75%;
+  left: 5.42%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-2xl);
+}
+.b7,
+.line1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.line1 {
+  border-radius: var(--br-4xs-1);
+  background-color: var(--color-gray-1200);
+  box-shadow: 0 11.15633487701416px 14.88px rgba(0, 0, 0, 0.16);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 701px;
+  height: 63px;
+  overflow: hidden;
+}
+.b7 {
+  font-size: 14.18px;
+  letter-spacing: 0.1px;
+  line-height: 24.31px;
+  display: flex;
+  color: var(--color-firebrick);
+  text-align: right;
+  align-items: center;
+  width: 180px;
+  height: 24px;
+}
+.histricoDeJogoParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-1200);
+  width: 756px;
+  height: 702px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-12xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: 11.18px;
+  color: var(--color-darkslategray-400);
+  font-family: var(--font-poppins);
+}

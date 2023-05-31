@@ -1,0 +1,220 @@
+.homeCassinoMenuMensagensChild {
+  position: absolute;
+  top: 95px;
+  left: 279px;
+  border-radius: var(--br-xs);
+  width: 1129px;
+  height: 249px;
+  object-fit: cover;
+}
+.cliqueEConhea,
+.oAstronautaMais {
+  position: relative;
+  font-weight: 500;
+}
+.cliqueEConhea {
+  font-size: 19.34px;
+}
+.oAstronautaMaisFamosoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.saibaMais {
+  position: relative;
+  letter-spacing: 0.19px;
+  line-height: 27.85px;
+  font-weight: 500;
+  text-shadow: 0 5.062802314758301px 5.06px rgba(0, 0, 0, 0.25);
+}
+.botao3,
+.frameParent {
+  display: flex;
+  justify-content: center;
+}
+.botao3 {
+  border-radius: 62.89px;
+  background-color: var(--color-gray-100);
+  height: 51.89px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 12.726252555847168px 35.448184967041016px;
+  box-sizing: border-box;
+  align-items: center;
+  font-size: 16.45px;
+}
+.frameParent {
+  position: absolute;
+  top: 149px;
+  left: 333px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+  font-size: 31.34px;
+}
+.imagemJogo {
+  position: absolute;
+  top: 430px;
+  left: 1298px;
+  width: 228px;
+  height: 201px;
+}
+.frameChild,
+.frameItem {
+  position: relative;
+  border-radius: 7.47px;
+  width: 184px;
+  height: 5px;
+}
+.frameChild {
+  background-color: var(--text);
+}
+.frameItem {
+  background: linear-gradient(238.97deg, #00fa0a, #0046fa);
+}
+.rectangleParent {
+  position: absolute;
+  top: 325px;
+  left: 468px;
+  height: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.47px;
+}
+.nossosJogos {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 434px;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  width: 228px;
+  height: 324px;
+  object-fit: cover;
+}
+.cashOr {
+  margin-block-start: 0;
+  margin-block-end: 1.29px;
+}
+.crash {
+  margin: 0;
+}
+.cashOrCrashContainer {
+  position: absolute;
+  top: 234px;
+  left: 20px;
+  line-height: 123%;
+  font-weight: 500;
+}
+.rectangleGroup {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.frameGroup,
+.rectangleContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 228px;
+  height: 201px;
+}
+.frameGroup {
+  top: 54px;
+  width: 1248px;
+  height: 324px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  font-size: 26.39px;
+}
+.imagemJogo1,
+.rollJogos,
+.rollJogosWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1248px;
+  height: 378px;
+}
+.imagemJogo1,
+.rollJogosWrapper {
+  top: -37px;
+}
+.imagemJogo1 {
+  top: 430px;
+  left: 278px;
+  width: 1328px;
+  height: 341px;
+}
+.casinoAoVivo {
+  position: absolute;
+  top: 41px;
+  left: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 434px;
+}
+.frameContainer {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  width: 1248px;
+  height: 324px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  font-size: 26.39px;
+}
+.frameChild10,
+.rollJogos1 {
+  position: absolute;
+  top: 803px;
+  left: 278px;
+  width: 1248px;
+  height: 419px;
+}
+.frameChild10 {
+  top: 10.61px;
+  left: 367px;
+  background-color: var(--text);
+  width: 15px;
+  height: 15px;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+}
+.rectangleParent8 {
+  position: absolute;
+  top: 66px;
+  left: 652px;
+  width: 408px;
+  height: 228px;
+}
+.homeCassinoMenuMensagens {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 1480px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,146 @@
+.tShirtIcon {
+  position: relative;
+  width: 21.21px;
+  height: 21.21px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameChild {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkslateblue-200);
+  width: 1px;
+  height: 27px;
+}
+.premierLeague {
+  position: relative;
+  line-height: 123%;
+  font-weight: 500;
+  display: inline-block;
+  width: 252.71px;
+}
+.frameWrapper,
+.premierLeagueWrapper,
+.tShirtParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper,
+.tShirtParent {
+  width: 252.71px;
+}
+.tShirtParent {
+  width: 251px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-4xs);
+}
+.div,
+.under {
+  flex: 1;
+  position: relative;
+  line-height: 123%;
+  font-weight: 500;
+}
+.under {
+  font-size: var(--font-size-3xs);
+}
+.frameGroup,
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.parent {
+  width: 486px;
+  justify-content: center;
+  gap: 12.11px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.frameGroup {
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background: linear-gradient(269.85deg, #00c64f, #367bba);
+  border: 0.8px solid var(--color-darkslateblue-100);
+  box-sizing: border-box;
+  width: 759px;
+  padding: var(--padding-6xs) 21.941509246826172px;
+  justify-content: space-between;
+  font-size: var(--font-size-base);
+}
+.apr {
+  align-self: stretch;
+  position: relative;
+  line-height: 123%;
+  font-weight: 500;
+}
+.aprParent {
+  width: 45.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11.35px;
+}
+.frameChild6 {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-fuchsia);
+  width: 1px;
+  height: 47px;
+}
+.liverpoolFcParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11.35px;
+}
+.frameChild7 {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gainsboro);
+  width: 1px;
+  height: 27px;
+}
+.frameContainer,
+.frameParent1,
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.group {
+  width: 486px;
+  justify-content: center;
+  gap: 12.11px;
+  text-align: center;
+}
+.frameContainer,
+.frameParent1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray-1200);
+  width: 759px;
+  padding: var(--padding-6xs) 21.941509246826172px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.frameParent1 {
+  background-color: var(--color-gray-900);
+}
+.frameParent {
+  position: absolute;
+  top: 1210px;
+  left: 181px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

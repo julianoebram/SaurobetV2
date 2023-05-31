@@ -1,0 +1,33 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 296px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-1200);
+  width: 592px;
+  height: 559px;
+}
+.vectorIcon {
+  position: relative;
+  width: 11px;
+  height: 12px;
+}
+.vectorWrapper {
+  position: absolute;
+  top: 20.57px;
+  left: 597px;
+  border-radius: var(--br-30xl);
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 740px;
+  height: 556px;
+}

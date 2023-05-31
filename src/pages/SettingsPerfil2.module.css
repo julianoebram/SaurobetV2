@@ -1,0 +1,153 @@
+.informaesPessoais {
+  position: relative;
+  font-size: var(--font-size-mid);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.diogo,
+.primeiroNome {
+  position: relative;
+  display: inline-block;
+  width: 310px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.diogo {
+  font-size: var(--bcx-barlow-labe-medium-size);
+  font-weight: 600;
+  width: 431.32px;
+  margin-top: -3px;
+}
+.primeiroNomeParent,
+.typebox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.typebox {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  width: 313px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.sobrenome {
+  position: relative;
+  display: inline-block;
+  width: 431.32px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.typeboxParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.salvar {
+  position: relative;
+  letter-spacing: 0.13px;
+  line-height: 19.67px;
+}
+.botao1 {
+  position: absolute;
+  top: 0.22px;
+  left: 534px;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(214.58deg, #00cb08, #00bf6f);
+  width: 104px;
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.botao1Wrapper {
+  position: relative;
+  width: 638px;
+  height: 40px;
+  font-size: 13.41px;
+  color: var(--color-gray-1000);
+}
+.frameParent,
+.informaesPessoaisParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.informaesPessoaisParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-1200);
+  width: 697px;
+  height: 327px;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-12xl);
+  box-sizing: border-box;
+}
+.frameParent {
+  position: absolute;
+  top: 204px;
+  left: 319px;
+  flex-direction: row;
+}
+.settingsPerfil2Child {
+  position: absolute;
+  top: 172px;
+  left: 314px;
+  background-color: var(--color-darkslategray-100);
+  width: 996px;
+  height: 1px;
+}
+.perfil {
+  position: relative;
+  font-weight: 500;
+}
+.perfilWrapper {
+  background-color: var(--color-gray-100);
+  color: var(--color-lightyellow);
+}
+.documentosWrapper,
+.perfilWrapper {
+  border-radius: var(--br-5xs);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-2xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameGroup {
+  position: absolute;
+  top: 100px;
+  left: calc(50% - 401px);
+  width: 1009px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.settingsPerfil2 {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 1480px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xs);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

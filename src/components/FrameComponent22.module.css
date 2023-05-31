@@ -1,0 +1,21 @@
+.transaes {
+  position: relative;
+  text-transform: uppercase;
+}
+.transaesParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-1200);
+  width: 756px;
+  height: 698px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-12xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

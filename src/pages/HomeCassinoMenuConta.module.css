@@ -1,0 +1,283 @@
+.homeCassinoMenuContaChild {
+  position: absolute;
+  top: 133px;
+  left: 257px;
+  border-radius: var(--br-xs);
+  width: 1129px;
+  height: 249px;
+  object-fit: cover;
+}
+.cliqueEConhea,
+.oAstronautaMais {
+  position: relative;
+  font-weight: 500;
+}
+.cliqueEConhea {
+  font-size: 19.34px;
+}
+.oAstronautaMaisFamosoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.saibaMais {
+  position: relative;
+  letter-spacing: 0.19px;
+  line-height: 27.85px;
+  font-weight: 500;
+  text-shadow: 0 5.062802314758301px 5.06px rgba(0, 0, 0, 0.25);
+}
+.botao3,
+.frameParent {
+  display: flex;
+  justify-content: center;
+}
+.botao3 {
+  border-radius: 62.89px;
+  background-color: var(--color-gray-100);
+  height: 51.89px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 12.726252555847168px 35.448184967041016px;
+  box-sizing: border-box;
+  align-items: center;
+  font-size: 16.45px;
+}
+.frameParent {
+  position: absolute;
+  top: 187px;
+  left: 311px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+  font-size: 31.34px;
+}
+.imagemJogo {
+  position: absolute;
+  top: 468px;
+  left: 1276px;
+  width: 228px;
+  height: 201px;
+}
+.frameChild,
+.frameItem {
+  position: relative;
+  border-radius: 7.47px;
+  width: 184px;
+  height: 5px;
+}
+.frameChild {
+  background-color: var(--text);
+}
+.frameItem {
+  background: linear-gradient(238.97deg, #00fa0a, #0046fa);
+}
+.rectangleParent {
+  position: absolute;
+  top: 363px;
+  left: 446px;
+  height: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.47px;
+}
+.nossosJogos {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 434px;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  width: 228px;
+  height: 324px;
+  object-fit: cover;
+}
+.cashOr {
+  margin-block-start: 0;
+  margin-block-end: 1.29px;
+}
+.crash {
+  margin: 0;
+}
+.cashOrCrashContainer {
+  position: absolute;
+  top: 234px;
+  left: 20px;
+  line-height: 123%;
+  font-weight: 500;
+}
+.rectangleGroup {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.frameGroup,
+.rectangleContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 228px;
+  height: 201px;
+}
+.frameGroup {
+  top: 54px;
+  width: 1248px;
+  height: 324px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  font-size: 26.39px;
+}
+.imagemJogo1,
+.rollJogos,
+.rollJogosWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1248px;
+  height: 378px;
+}
+.imagemJogo1,
+.rollJogosWrapper {
+  top: -37px;
+}
+.imagemJogo1 {
+  top: 468px;
+  left: 256px;
+  width: 1328px;
+  height: 341px;
+}
+.casinoAoVivo {
+  position: absolute;
+  top: 41px;
+  left: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 434px;
+}
+.frameContainer,
+.rollJogos1 {
+  position: absolute;
+  width: 1248px;
+}
+.frameContainer {
+  top: 95px;
+  left: 0;
+  height: 324px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  font-size: 26.39px;
+}
+.rollJogos1 {
+  top: 841px;
+  left: 256px;
+  height: 419px;
+}
+.homeCassinoMenuContaItem {
+  position: absolute;
+  top: 104px;
+  right: 330px;
+  width: 408px;
+  height: 228px;
+}
+.frameChild10 {
+  position: absolute;
+  top: calc(50% - 195.88px);
+  right: 16px;
+  background-color: var(--text);
+  width: 15px;
+  height: 15px;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+}
+.conta,
+.icon {
+  position: relative;
+}
+.icon {
+  width: 22px;
+  height: 22px;
+}
+.conta {
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.contaWrapper,
+.iconParent {
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconParent {
+  width: 141px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-10xs);
+}
+.boxwhite3BoxesChild {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  width: 129px;
+  height: 1px;
+}
+.icon11 {
+  position: relative;
+  width: 27px;
+  height: 27px;
+}
+.boxwhite3Boxes {
+  position: absolute;
+  top: calc(50% - 195.48px);
+  right: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--text);
+  box-shadow: 0 4px 43px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs);
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-4xs);
+}
+.rectangleParent8 {
+  position: absolute;
+  top: 104px;
+  left: 913px;
+  width: 165px;
+  height: 412.97px;
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--color-darkslategray-500);
+  font-family: var(--bcx-barlow-labe-small);
+}
+.homeCassinoMenuConta {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 1518px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

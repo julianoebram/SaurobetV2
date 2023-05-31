@@ -1,0 +1,106 @@
+.alterarSenha {
+  position: relative;
+  text-transform: uppercase;
+}
+.alterarSenhaWrapper,
+.frameWrapper {
+  height: 402px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.alterarSenhaWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-1200);
+  width: 756px;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-12xl);
+  box-sizing: border-box;
+}
+.frameWrapper {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 378px);
+  flex-direction: row;
+  font-size: var(--font-size-mid);
+}
+.senhaAtual {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  height: 19px;
+}
+.typebox,
+.typebox1,
+.typebox2 {
+  position: absolute;
+  height: 10.95%;
+  width: 60.98%;
+  top: 24.13%;
+  right: 17.59%;
+  bottom: 64.93%;
+  left: 21.43%;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.typebox1,
+.typebox2 {
+  top: 39.05%;
+  bottom: 50%;
+}
+.typebox2 {
+  top: 53.98%;
+  bottom: 35.07%;
+}
+.reviewOrder {
+  position: relative;
+  letter-spacing: 0.13px;
+  line-height: 19.67px;
+}
+.akarIconscheckBox {
+  position: relative;
+  width: 21.23px;
+  height: 21.23px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonreviewOrderdarkBlue {
+  position: absolute;
+  height: 8.71%;
+  width: 20.5%;
+  top: 73.38%;
+  right: 17.59%;
+  bottom: 17.91%;
+  left: 61.9%;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(214.58deg, #00cb08, #00bf6f);
+  display: flex;
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 7.42px;
+  font-size: 13.41px;
+  color: var(--color-gray-1000);
+}
+.frameParent {
+  position: absolute;
+  top: 210px;
+  left: 411px;
+  width: 756px;
+  height: 402px;
+  text-align: left;
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

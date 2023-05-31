@@ -1,0 +1,35 @@
+.diceIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.transaes {
+  position: relative;
+  font-weight: 500;
+}
+.diceParent,
+.frameParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.diceParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  width: 166px;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-2xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: 7.42px;
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

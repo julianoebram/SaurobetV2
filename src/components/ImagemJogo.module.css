@@ -1,0 +1,40 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  width: 228px;
+  height: 324px;
+  object-fit: cover;
+}
+.minesDare {
+  margin-block-start: 0;
+  margin-block-end: 1.29px;
+}
+.win {
+  margin: 0;
+}
+.minesDare2Container {
+  position: absolute;
+  top: 234px;
+  left: 20px;
+  line-height: 123%;
+  font-weight: 500;
+}
+.rectangleParent {
+  position: relative;
+  width: 228px;
+  height: 201px;
+}
+.imagemJogo {
+  width: 228px;
+  height: 324px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 26.39px;
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

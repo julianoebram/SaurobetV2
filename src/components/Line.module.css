@@ -1,0 +1,90 @@
+.receberComunicaesDe {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24.31px;
+  display: flex;
+  align-items: center;
+  width: 547px;
+  height: 41px;
+  flex-shrink: 0;
+}
+.receberComunicaesDeMarketWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moonIcon {
+  position: relative;
+  width: 9.62px;
+  height: 9.62px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.moonWrapper {
+  border-radius: var(--br-21xl-1);
+  background-color: var(--color-darkslategray-900);
+  box-shadow: 0 0.40101537108421326px 0.8px rgba(0, 0, 0, 0.1);
+  width: 16px;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  padding: 2.0050768852233887px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.darkLight,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.darkLight {
+  border-radius: 11.08px;
+  background: linear-gradient(#070f0d, #070f0d), #cfd5d8;
+  border: 1.6px solid var(--color-gray-700);
+  box-sizing: border-box;
+  width: 42.12px;
+  height: 23.12px;
+  padding: var(--padding-10xs);
+  justify-content: flex-end;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.frameParent {
+  width: 646px;
+  justify-content: space-between;
+}
+.line,
+.lineInner {
+  border-radius: var(--br-5xs);
+}
+.lineInner {
+  position: absolute;
+  height: 39.68%;
+  width: 92.15%;
+  top: 28.57%;
+  right: 2.85%;
+  bottom: 31.75%;
+  left: 4.99%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.line {
+  position: relative;
+  background-color: var(--color-gray-1200);
+  border: 2px solid var(--color-gray-700);
+  box-sizing: border-box;
+  width: 692px;
+  height: 74px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

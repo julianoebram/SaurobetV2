@@ -1,0 +1,19 @@
+.menuLateral {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 244px;
+  height: 1795px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-72xl) var(--padding-3xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--color-lavender);
+  font-family: var(--font-poppins);
+}

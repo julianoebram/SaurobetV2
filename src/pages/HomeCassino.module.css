@@ -1,0 +1,243 @@
+.homeCassinoChild {
+  position: absolute;
+  top: 95px;
+  left: 278px;
+  border-radius: var(--br-xs);
+  width: 1129px;
+  height: 249px;
+  object-fit: cover;
+}
+.aposteAgoraGanhe,
+.saibaMais {
+  position: relative;
+  font-weight: 500;
+}
+.saibaMais {
+  font-size: 16.45px;
+  letter-spacing: 0.19px;
+  line-height: 27.85px;
+  font-family: var(--font-poppins);
+  color: var(--text);
+  text-align: left;
+  text-shadow: 0 5.062802314758301px 5.06px rgba(0, 0, 0, 0.25);
+}
+.botao2 {
+  cursor: pointer;
+  border: 0;
+  padding: 12.726252555847168px 35.448184967041016px;
+  background-color: var(--color-gray-100);
+  border-radius: 62.89px;
+  height: 51.89px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.aposteAgoraGanheESaqueParent {
+  position: absolute;
+  top: 155px;
+  left: 333px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-23xl);
+  text-align: left;
+  font-size: 31.34px;
+}
+.imagemJogo {
+  position: absolute;
+  top: 593px;
+  left: 1298px;
+  width: 228px;
+  height: 201px;
+}
+.frameChild,
+.frameItem {
+  position: relative;
+  border-radius: 7.47px;
+  width: 184px;
+  height: 5px;
+}
+.frameChild {
+  background-color: var(--text);
+}
+.frameItem {
+  background: linear-gradient(238.97deg, #00fa0a, #0046fa);
+}
+.rectangleParent {
+  position: absolute;
+  top: 325px;
+  left: 468px;
+  height: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.47px;
+}
+.tShirtIcon {
+  position: relative;
+  width: 18.55px;
+  height: 18.55px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.esportes {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--text);
+  text-align: center;
+}
+.tShirtGroup,
+.tShirtParent {
+  cursor: pointer;
+  border: 0;
+  padding: 11.12930965423584px 14.839079856872559px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7.42px;
+}
+.tShirtParent {
+  background-color: var(--color-gray-100);
+  border-radius: var(--br-5xs);
+}
+.tShirtGroup {
+  background-color: var(--color-darkslategray-200);
+  border-radius: 7.42px;
+}
+.tShirtIcon4 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent {
+  position: absolute;
+  top: 15px;
+  left: 248px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.tShirtIcon5 {
+  position: relative;
+  width: 21.21px;
+  height: 21.21px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tShirtParent2,
+.tShirtParent7 {
+  cursor: pointer;
+  border: 0;
+  padding: 12.726252555847168px 35.448184967041016px;
+  background-color: var(--color-gray-200);
+  border-radius: 62.89px;
+  height: 45.74px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8.48px;
+}
+.tShirtParent7 {
+  background-color: var(--color-gray-100);
+}
+.frameContainer {
+  width: 1017px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.frameContainer,
+.frameGroup,
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+.searchbar {
+  border: 0.8px solid var(--color-darkslategray-100);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
+  background-color: var(--color-gray-200);
+  border-radius: var(--br-39xl);
+  box-sizing: border-box;
+  width: 756.55px;
+  height: 41.55px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-6xl);
+  justify-content: space-between;
+}
+.frameGroup {
+  position: absolute;
+  top: 368px;
+  left: 334px;
+  width: 1017px;
+  height: 119px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 33px;
+}
+.div,
+.ellipseDiv {
+  position: absolute;
+  top: 2px;
+}
+.ellipseDiv {
+  left: 1px;
+  border-radius: 50%;
+  background-color: var(--color-orangered);
+  width: 12px;
+  height: 12px;
+}
+.div {
+  left: 6px;
+  font-weight: 500;
+}
+.ellipseParent {
+  position: absolute;
+  top: 118px;
+  left: 111px;
+  width: 14px;
+  height: 18px;
+}
+.div1 {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  font-weight: 500;
+}
+.ellipseGroup {
+  position: absolute;
+  top: 167px;
+  left: 111px;
+  width: 14px;
+  height: 18px;
+}
+.homeCassino {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 1480px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 8.33px;
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

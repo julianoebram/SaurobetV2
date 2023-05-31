@@ -1,0 +1,164 @@
+.frameChild {
+  position: relative;
+  border-radius: 12.96px;
+  width: 20.73px;
+  height: 20.73px;
+  object-fit: cover;
+}
+.liverpoolFc,
+.rectangleParent {
+  display: flex;
+  align-items: center;
+}
+.liverpoolFc {
+  position: relative;
+  line-height: 123%;
+  font-weight: 500;
+  justify-content: center;
+  width: 85.09px;
+  height: 38.7px;
+  flex-shrink: 0;
+}
+.rectangleParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-11xs-3);
+}
+.span {
+  font-size: 18.87px;
+}
+.x1TxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.frameGroup,
+.x1 {
+  display: flex;
+  align-items: center;
+}
+.x1 {
+  position: relative;
+  width: 103.48px;
+  height: 48.58px;
+  flex-shrink: 0;
+  font-size: 29.03px;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-11xs-3);
+}
+.frameInner {
+  align-self: stretch;
+  background-color: var(--color-darkslateblue-100);
+  border: 0.6px solid var(--text);
+  box-sizing: border-box;
+  height: 0.65px;
+}
+.b,
+.div,
+.frameInner {
+  position: relative;
+}
+.div {
+  font-weight: 500;
+}
+.b {
+  color: var(--text);
+}
+.parent {
+  flex: 1;
+  border-radius: 7.77px;
+  background-color: var(--color-darkslategray-200);
+  height: 29.63px;
+  display: flex;
+  flex-direction: row;
+  padding: 8.243454933166504px 18.137054443359375px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.div1 {
+  position: relative;
+  font-size: 12.07px;
+  font-weight: 500;
+  color: var(--text);
+}
+.xParent {
+  flex: 1;
+  border-radius: 7.77px;
+  background-color: var(--color-darkslategray-200);
+  height: 29.63px;
+  display: flex;
+  flex-direction: row;
+  padding: 8.243454933166504px 18.137054443359375px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 9.07px;
+}
+.div3 {
+  position: relative;
+  font-weight: 500;
+  color: var(--text);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7.77px;
+  text-align: justify;
+  font-size: 12.07px;
+  color: var(--color-mediumspringgreen);
+}
+.tShirtIcon {
+  position: relative;
+  width: 13.74px;
+  height: 13.74px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tShirtParent {
+  flex: 1;
+  border-radius: 40.74px;
+  height: 29.63px;
+  flex-direction: row;
+  padding: 8.243454933166504px 11.659534454345703px;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-7xs-5);
+}
+.frameDiv,
+.frameParent,
+.tShirtParent {
+  display: flex;
+  align-items: center;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: 7.77px;
+  font-size: var(--font-size-3xs);
+}
+.frameParent {
+  position: absolute;
+  top: 161.5px;
+  left: 137.5px;
+  border-radius: 7.77px;
+  background-color: var(--color-gray-1100);
+  border: 0.5px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 376.01px;
+  flex-direction: column;
+  padding: 14.250542640686035px 12.955038070678711px;
+  justify-content: flex-start;
+  gap: 22.67px;
+  text-align: center;
+  font-size: 9.68px;
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

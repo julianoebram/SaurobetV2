@@ -1,0 +1,106 @@
+.settingsHistricoInner {
+  position: absolute;
+  top: 210px;
+  left: 410px;
+  height: 707px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.settingsHistricoChild {
+  position: absolute;
+  top: 172px;
+  left: 314px;
+  background-color: var(--color-darkslategray-100);
+  width: 996px;
+  height: 1px;
+}
+.vectorIcon {
+  position: relative;
+  width: 7px;
+  height: 12px;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.56px;
+  line-height: 17.99px;
+  font-weight: 500;
+}
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 17.5px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-sm);
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper {
+  position: relative;
+  width: 35px;
+  height: 32px;
+}
+.groupParent,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.vectorParent {
+  position: absolute;
+  top: 830px;
+  left: 662px;
+  justify-content: flex-end;
+  gap: var(--gap-3xl);
+}
+.perfil {
+  position: relative;
+  font-weight: 500;
+}
+.perfilWrapper {
+  color: var(--color-lightyellow);
+}
+.documentosWrapper,
+.histricoDeJogoWrapper,
+.perfilWrapper {
+  border-radius: var(--br-5xs);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-2xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.histricoDeJogoWrapper {
+  background-color: var(--color-gray-100);
+}
+.frameParent {
+  position: absolute;
+  top: 100px;
+  left: calc(50% - 401px);
+  width: 1009px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: var(--font-size-sm);
+}
+.settingsHistrico {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 1480px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 17.72px;
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

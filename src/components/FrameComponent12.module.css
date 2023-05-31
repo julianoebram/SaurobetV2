@@ -1,0 +1,55 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  width: 271px;
+  height: 61px;
+}
+.icon {
+  position: relative;
+  width: 27px;
+  height: 27px;
+}
+.consecteturAdipiscingElit,
+.inscrevaSeParaReceber {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 266px;
+  height: 15px;
+  flex-shrink: 0;
+}
+.consecteturAdipiscingElit {
+  font-size: var(--bcx-barlow-labe-small-size);
+  color: var(--color-gray-400);
+  width: 175px;
+}
+.iconParent,
+.inscrevaSeParaReceberNotifParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.iconParent {
+  position: absolute;
+  top: 15px;
+  left: 21px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-smi);
+}
+.rectangleParent {
+  align-self: stretch;
+  position: relative;
+  height: 61px;
+  text-align: left;
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--color-darkslategray-500);
+  font-family: var(--bcx-barlow-labe-small);
+}

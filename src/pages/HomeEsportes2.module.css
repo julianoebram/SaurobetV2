@@ -1,0 +1,251 @@
+.frameChild,
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.frameChild {
+  border-radius: var(--br-5xs);
+  width: 1129px;
+  height: 249px;
+}
+.icon {
+  width: 1216px;
+  height: 393px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 95px;
+  left: 186px;
+  border-radius: var(--br-xs);
+  width: 1129px;
+  height: 249px;
+  overflow: hidden;
+}
+.aposteAgoraGanhe,
+.saibaMais {
+  position: relative;
+  font-weight: 500;
+}
+.saibaMais {
+  letter-spacing: 0.19px;
+  line-height: 27.85px;
+  text-shadow: 0 5.062802314758301px 5.06px rgba(0, 0, 0, 0.25);
+}
+.botao3 {
+  border-radius: 62.89px;
+  background-color: var(--color-gray-100);
+  height: 51.89px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 12.726252555847168px 35.448184967041016px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: 16.45px;
+}
+.aposteAgoraGanheESaqueParent {
+  position: absolute;
+  top: 155px;
+  left: 241px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-23xl);
+  text-align: left;
+  font-size: 31.34px;
+}
+.frameInner,
+.frameItem {
+  position: relative;
+  border-radius: 7.47px;
+  width: 184px;
+  height: 5px;
+}
+.frameItem {
+  background-color: var(--text);
+}
+.frameInner {
+  background: linear-gradient(238.97deg, #00fa0a, #0046fa);
+}
+.rectangleGroup {
+  position: absolute;
+  top: 325px;
+  left: 376px;
+  height: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.47px;
+}
+.tShirtIcon {
+  position: relative;
+  width: 18.55px;
+  height: 18.55px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tShirtGroup,
+.tShirtParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 11.12930965423584px 14.839079856872559px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7.42px;
+}
+.tShirtGroup {
+  background-color: var(--color-gray-200);
+}
+.tShirtIcon4 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent {
+  position: absolute;
+  top: 15px;
+  left: 248px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.tShirtIcon5 {
+  position: relative;
+  width: 21.21px;
+  height: 21.21px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tShirtParent2 {
+  border-radius: 62.89px;
+  background-color: var(--color-gray-200);
+  height: 45.74px;
+  padding: 12.726252555847168px 35.448184967041016px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 8.48px;
+}
+.frameGroup,
+.tShirtParent2,
+.tShirtParent7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tShirtParent7 {
+  border-radius: 62.89px;
+  background-color: var(--color-gray-100);
+  height: 45.74px;
+  padding: 12.726252555847168px 35.448184967041016px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 8.48px;
+}
+.frameGroup {
+  position: absolute;
+  top: 368px;
+  left: 242px;
+  width: 1017px;
+  justify-content: space-between;
+}
+.procureJogos {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 29.56px;
+  font-weight: 500;
+}
+.iconlylightOutlinearrowD {
+  position: relative;
+  width: 24.06px;
+  height: 24.06px;
+}
+.searchbar {
+  position: absolute;
+  top: 446.22px;
+  left: 372.22px;
+  border-radius: var(--br-39xl);
+  background-color: var(--color-gray-200);
+  border: 0.8px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 756.55px;
+  height: 41.55px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-6xl);
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.div,
+.ellipseDiv {
+  position: absolute;
+  top: 2px;
+}
+.ellipseDiv {
+  left: 1px;
+  border-radius: 50%;
+  background-color: var(--color-orangered);
+  width: 12px;
+  height: 12px;
+}
+.div {
+  left: 6px;
+  font-weight: 500;
+}
+.ellipseParent {
+  position: absolute;
+  top: 118px;
+  left: 62px;
+  width: 14px;
+  height: 18px;
+  font-size: 8.33px;
+}
+.div1 {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  font-weight: 500;
+}
+.ellipseGroup {
+  position: absolute;
+  top: 167px;
+  left: 62px;
+  width: 14px;
+  height: 18px;
+  font-size: 8.33px;
+}
+.logoSaurobet11 {
+  position: absolute;
+  top: 14px;
+  left: 68px;
+  width: 161px;
+  height: 42px;
+  object-fit: cover;
+}
+.homeEsportes2 {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 1480px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}

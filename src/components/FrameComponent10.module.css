@@ -1,0 +1,162 @@
+.frameChild {
+  position: relative;
+  width: 95.68px;
+  height: 95.68px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.comprovanteDeEndereo,
+.valideSuaConta {
+  position: relative;
+  justify-content: center;
+  width: 400px;
+}
+.valideSuaConta {
+  display: flex;
+  align-items: center;
+}
+.comprovanteDeEndereo {
+  color: var(--text);
+}
+.arrasteOuProcure,
+.comprovanteDeEndereo,
+.frameGroup {
+  display: flex;
+  align-items: center;
+}
+.arrasteOuProcure {
+  position: relative;
+  font-size: 11.92px;
+  font-weight: 500;
+  color: var(--color-darkslategray-300);
+  justify-content: center;
+  width: 246px;
+}
+.frameGroup {
+  width: 346px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 25.04px;
+}
+.fileIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.arrastePraC {
+  position: relative;
+  letter-spacing: 0.13px;
+  line-height: 19.67px;
+  font-weight: 500;
+  display: inline-block;
+  width: 106px;
+}
+.arrastePraCWrapper,
+.fileParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fileParent {
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xs);
+}
+.vectorIcon {
+  position: relative;
+  width: 21px;
+  height: 22px;
+}
+.carregar {
+  margin: 0;
+}
+.carregarDoWindowsContainer {
+  position: relative;
+  letter-spacing: 0.13px;
+  line-height: 13.17px;
+  font-weight: 500;
+}
+.botao1,
+.typebox {
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+.botao1 {
+  background-color: var(--color-mediumseagreen);
+  width: 140px;
+  height: 57px;
+  padding: 9.951604843139648px var(--padding-2xl);
+  justify-content: center;
+  gap: 6.63px;
+  text-align: left;
+  color: var(--color-gray-1400);
+}
+.typebox {
+  background-color: var(--color-darkslategray-1300);
+  width: 331px;
+  height: 132px;
+  padding: 11.12930965423584px var(--padding-14xl) 11.12930965423584px
+    var(--padding-9xl);
+  justify-content: space-between;
+}
+.enviar {
+  position: relative;
+  letter-spacing: 0.13px;
+  line-height: 19.67px;
+}
+.botao11 {
+  border-radius: var(--br-5xs);
+  background: linear-gradient(214.58deg, #00cb08, #00bf6f);
+  width: 331px;
+  height: 57px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 9.951604843139648px var(--padding-2xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 15.41px;
+  color: var(--color-gray-1000);
+}
+.typeboxParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frameWrapper {
+  position: relative;
+  width: 331px;
+  height: 201px;
+  font-size: 12.41px;
+  color: var(--text);
+}
+.frameParent {
+  position: absolute;
+  top: 52px;
+  left: 197px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  text-align: center;
+  font-size: 17.29px;
+  color: var(--color-greenyellow);
+  font-family: var(--font-poppins);
+}

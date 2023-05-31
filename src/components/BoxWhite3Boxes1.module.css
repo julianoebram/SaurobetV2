@@ -1,0 +1,78 @@
+.vectorIcon {
+  position: absolute;
+  height: 34.66%;
+  width: 5.63%;
+  top: 31.03%;
+  right: 7%;
+  bottom: 34.31%;
+  left: 87.37%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon {
+  position: relative;
+  width: 27px;
+  height: 27px;
+}
+.consecteturAdipiscingElit,
+.verifiqueSeuEMail {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 266px;
+  height: 15px;
+  flex-shrink: 0;
+}
+.consecteturAdipiscingElit {
+  font-size: var(--bcx-barlow-labe-small-size);
+  color: var(--color-gray-400);
+  width: 175px;
+}
+.iconParent,
+.verifiqueSeuEMailParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.iconParent {
+  position: absolute;
+  top: 15px;
+  left: 21px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-smi);
+}
+.vectorParent {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke);
+  height: 61px;
+}
+.boxwhite3Boxes {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--text);
+  box-shadow: 0 4px 43px rgba(0, 0, 0, 0.05);
+  width: 408px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  text-align: left;
+  font-size: var(--bcx-barlow-labe-medium-size);
+  color: var(--color-darkslategray-500);
+  font-family: var(--bcx-barlow-labe-small);
+}

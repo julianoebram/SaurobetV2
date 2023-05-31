@@ -1,0 +1,130 @@
+.nossosJogos {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 434px;
+}
+.cashOr {
+  margin-block-start: 0;
+  margin-block-end: 1.29px;
+}
+.crash {
+  margin: 0;
+}
+.cashOrCrashContainer {
+  position: relative;
+  line-height: 123%;
+  font-weight: 500;
+}
+.gameSlotContainer,
+.frameChild {
+  border-radius: var(--br-5xs);
+  width: 228px;
+  height: 324px;
+}
+.gameSlotContainer {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  opacity: 0.5;
+    
+}
+
+.fortuneOx {
+   background-image: url(https://th.bing.com/th/id/OIP.3s6oORqvLOo2-IwU6HO19gHaHa?pid=ImgDet&w=550&h=550&rs=1);   
+}
+
+
+.fortuneTiger {
+   background-image: url(https://miga888.com/wp-content/uploads/2022/01/%E0%B8%9B%E0%B8%81-Fortune-Tiger-1.jpg);   
+}
+
+.spaceman {
+  background-image: url(https://th.bing.com/th/id/OIP.GTomJySrLf8cbH8TSHv4EwAAAA?pid=ImgDet&rs=1);   
+  background-position-y: 40%;
+}
+
+.sweetBonanza {
+  background-image: url(https://www.nettikasino247.com/wp-content/uploads/2019/12/sweet-bonanza.jpg);   
+}
+
+
+.frameChild {
+  position: relative;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.aviator {
+  position: absolute;
+  top: 234px;
+  left: 20px;
+  line-height: 123%;
+  font-weight: 500;
+}
+.rectangleParent {
+  position: relative;
+  width: 228px;
+  height: 201px;
+}
+.imagemJogo1,
+.spacemanWrapper {
+  width: 228px;
+  height: 324px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.spacemanWrapper {
+  border-radius: var(--br-5xs);
+  padding: var(--padding-39xl) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background-image: url(/public/rectangle-15444@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frameParent,
+.imagemJogo,
+.rollJogos {
+  position: absolute;
+  left: 0;
+  width: 1248px;
+}
+.frameParent {
+  top: 54px;
+  height: 324px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  font-size: 26.39px;
+}
+.imagemJogo,
+.rollJogos {
+  top: -37px;
+  height: 378px;
+}
+.imagemJogo {
+  top: 593px;
+  left: 278px;
+  width: 1328px;
+  height: 341px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--text);
+  font-family: var(--font-poppins);
+}
