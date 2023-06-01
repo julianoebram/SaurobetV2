@@ -28,12 +28,7 @@ const RollJogos1: FunctionComponent = () => {
           minesDare="Lightning"
           win="Roulette"
         />
-        <div className={styles.gatesOfOlympusFrame}>
-          <div className={styles.gatesOfOlympusContainer}>
-            <p className={styles.gatesOf}>Gates of</p>
-            <p className={styles.olympus}>Olympus</p>
-          </div>
-        </div>
+        
       </div>
     </div>
   );

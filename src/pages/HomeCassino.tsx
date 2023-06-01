@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 
 const HomeCassino: FunctionComponent = () => {
   return (
+    <div>
     <div className={styles.homeCassino}>
       <MenuLateral1 />
       <HeaderTop2 />
@@ -98,9 +99,11 @@ const HomeCassino: FunctionComponent = () => {
         <div className={styles.ellipseDiv} />
         <div className={styles.div1}>2</div>
       </div>
-      <Footer />
     </div>
-  );
+    
+   <Footer />
+   </div>
+ );
 };
 
 export default HomeCassino;
