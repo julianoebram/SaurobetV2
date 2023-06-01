@@ -1,0 +1,87 @@
+
+.logo {
+  display: flex;
+  max-width: 200px;
+ 
+  left: 50%;
+  }
+
+.margin{
+  background-color: #030a08;
+  padding: 10px;
+ 
+}
+.loginBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #030a08;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  flex-direction: column;
+}
+
+.cadastroContainer {
+  background-color: #58a093;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cadastroTitle {
+  text-align: center;
+}
+
+
+.cadastroButton {
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3e6d5a;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cadastroButton:hover {
+  background-color: #1e463a;
+}
+
+.cadastroButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.formField {
+  margin:20px;
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  transition: border-bottom-color 0.3s;
+  background-color: #1e463a;
+  color: #fff;
+}
+
+input:focus {
+  border-bottom-color: #4a90e2;
+}

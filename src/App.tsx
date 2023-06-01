@@ -27,6 +27,8 @@ import SettingsPerfil from "./pages/SettingsPerfil";
 import Recompensas from "./pages/Recompensas";
 import HomeCassinoMenuConta from "./pages/HomeCassinoMenuConta";
 import { useEffect } from "react";
+import LoginPage from "./pages/Login";
+import Signup from "./pages/Signup";
 
 function App() {
   const action = useNavigationType();
@@ -156,6 +158,9 @@ function App() {
         path="/home-cassino-menu-mensagens"
         element={<HomeCassinoMenuMensagens />}
       />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/Signup" element={<Signup />} />
+      
       <Route path="/settings-validao-2" element={<SettingsValidao2 />} />
       <Route path="/settings-validao-4" element={<SettingsValidao4 />} />
       <Route path="/settings-transaes" element={<SettingsTransaes />} />

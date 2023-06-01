@@ -38,6 +38,9 @@
   opacity: 0.5;
     
 }
+.gameSlotContainer:hover {
+  opacity: 0.2;
+}
 
 .fortuneOx {
    background-image: url(https://th.bing.com/th/id/OIP.3s6oORqvLOo2-IwU6HO19gHaHa?pid=ImgDet&w=550&h=550&rs=1);   

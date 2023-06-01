@@ -19,6 +19,10 @@
   justify-content: flex-start;
   gap: var(--gap-10xs);
 }
+.menu:on-click {
+  opacity: 0.5;
+}
+
 .menuWrapper {
   position: absolute;
   top: 25px;

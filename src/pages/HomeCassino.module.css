@@ -4,7 +4,7 @@
   left: 278px;
   border-radius: var(--br-xs);
   width: 1129px;
-  height: 249px;
+  height: 249px;  
   object-fit: cover;
 }
 .aposteAgoraGanhe,
@@ -240,4 +240,5 @@
   font-size: 8.33px;
   color: var(--text);
   font-family: var(--font-poppins);
+  margin-bottom: 200px;
 }

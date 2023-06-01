@@ -5,6 +5,8 @@ import ImagemJogo2 from "../components/ImagemJogo2";
 
 import RollJogos1 from "../components/RollJogos1";
 import styles from "./HomeCassino.module.css";
+import Footer from "../components/Footer";
+
 const HomeCassino: FunctionComponent = () => {
   return (
     <div className={styles.homeCassino}>
@@ -96,6 +98,7 @@ const HomeCassino: FunctionComponent = () => {
         <div className={styles.ellipseDiv} />
         <div className={styles.div1}>2</div>
       </div>
+      <Footer />
     </div>
   );
 };

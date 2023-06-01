@@ -3,6 +3,7 @@ import ImagemJogo from "./ImagemJogo";
 import styles from "./RollJogos1.module.css";
 const RollJogos1: FunctionComponent = () => {
   return (
+    
     <div className={styles.rollJogos}>
       <div className={styles.casinoAoVivo}>Casino ao vivo</div>
       <div className={styles.frameParent}>
