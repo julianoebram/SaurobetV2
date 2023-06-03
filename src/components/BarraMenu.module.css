@@ -29,3 +29,10 @@
   left: 26px;
   justify-content: center;
 }
+
+@media  (max-width: 768px) {
+  
+}
+.menu {
+  visibility: hidden;
+}

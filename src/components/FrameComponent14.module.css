@@ -3,41 +3,51 @@
   top: -0.78px;
   left: -0.78px;
   border-radius: var(--br-xs);
-  width: 1135.55px;
-  height: 279.55px;
+  width: 100%;
+  height: auto;
+  max-width: 1135.55px;
+  max-height: 279.55px;
 }
+
 .span {
   font-size: var(--font-size-71xl);
 }
+
 .txt {
   line-break: anywhere;
   width: 100%;
 }
+
 .div {
   position: absolute;
   top: 23px;
   left: 379px;
   display: flex;
   align-items: center;
-  width: 377px;
-  height: 177px;
+  width: 100%;
+  max-width: 377px;
+  height: auto;
   font-size: var(--font-size-108xl);
 }
+
 .aprWed,
 .tShirtIcon {
   position: relative;
   flex-shrink: 0;
 }
+
 .tShirtIcon {
   width: 21.21px;
   height: 21.21px;
   overflow: hidden;
 }
+
 .aprWed {
   font-weight: 500;
   display: inline-block;
   width: 110px;
 }
+
 .tShirtParent {
   border-radius: 62.89px;
   height: 45.74px;
@@ -49,6 +59,7 @@
   justify-content: flex-start;
   gap: 8.48px;
 }
+
 .soccer {
   position: relative;
   font-weight: 500;
@@ -56,8 +67,10 @@
   width: 49px;
   flex-shrink: 0;
 }
+
 .frameParent {
   position: absolute;
+  width: 80%;
   top: 219px;
   left: 322px;
   display: flex;
@@ -67,6 +80,7 @@
   gap: var(--gap-xs);
   font-size: var(--font-size-sm);
 }
+
 .frameItem {
   position: absolute;
   top: 71.18px;
@@ -76,6 +90,7 @@
   height: 64.64px;
   object-fit: cover;
 }
+
 .liverpoolFc {
   position: absolute;
   top: 43.16px;
@@ -85,9 +100,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 265.32px;
-  height: 120.68px;
+  width: 100%;
+  max-width: 265.32px;
+  height: auto;
+  max-height: 120.68px;
 }
+
 .frameInner {
   top: 66.18px;
   left: 756px;
@@ -96,11 +114,13 @@
   height: 64.64px;
   object-fit: cover;
 }
+
 .frameInner,
 .leedsFc,
 .x {
   position: absolute;
 }
+
 .leedsFc {
   top: 38.16px;
   left: 822.64px;
@@ -109,14 +129,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 265.32px;
-  height: 120.68px;
+  width: 100%;
+  max-width: 265.32px;
+  height: auto;
+  max-height: 120.68px;
 }
+
 .x {
   top: 43px;
   left: 551.17px;
   font-size: 85.77px;
 }
+
 .rectangleDiv {
   position: absolute;
   top: 200px;
@@ -124,17 +148,21 @@
   background-color: var(--color-darkslateblue-100);
   border: 1px solid var(--color-darkslategray-100);
   box-sizing: border-box;
-  width: 1016px;
+  width: 100%;
+  max-width: 1016px;
   height: 1px;
 }
+
 .vectorParent {
   position: absolute;
   top: 92px;
   left: 273px;
-  width: 1134px;
-  height: 278px;
+  width: 800px;
+  max-width: 800px;
+  height: auto;
   text-align: center;
   font-size: var(--font-size-11xl-2);
   color: var(--text);
   font-family: var(--font-poppins);
 }
+

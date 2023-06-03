@@ -26,7 +26,7 @@
 }
 .typebox {
   border-radius: var(--br-5xs);
-  background-color: var(--color-gray-200);
+  /*background-color: var(--color-gray-200);*/
   width: 313px;
   overflow: hidden;
   flex-shrink: 0;
@@ -71,7 +71,8 @@
   position: absolute;
   top: 204px;
   left: 319px;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
 }
 .perfil {
   position: relative;
@@ -123,4 +124,58 @@
   font-size: var(--font-size-5xs);
   color: var(--text);
   font-family: var(--font-poppins);
+}
+@media (max-width: 768px) {
+  .informaesDaConta {
+    font-size: var(--font-size-small);
+  }
+
+  .diogoBarbosa,
+  .nomeDeExibio {
+    width: 100%;
+  }
+
+  .diogoBarbosa {
+    font-size: var(--font-size-small);
+    margin-top: 0;
+  }
+
+  .nomeDeExibioParent,
+  .typebox {
+    flex-direction: column;
+  }
+
+  .typebox {
+    width: auto;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .diogohfbarbosagmailcom {
+    font-size: var(--font-size-small);
+  }
+
+  .typeboxParent {
+    flex-direction: column;
+  }
+
+  .frameParent,
+  .informaesDaContaParent,
+  .typeboxParent {
+    flex-direction: column;
+  }
+
+  .informaesDaContaParent {
+    width: 80%;
+    padding: 16px;
+    height: auto;
+  }
+
+  .frameParent {
+    position: relative;
+    top: 10%;
+    left: 10%;
+  }
+
+
 }

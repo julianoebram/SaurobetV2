@@ -1,16 +1,13 @@
-
-
 .logo {
   display: flex;
   max-width: 200px;
- 
   left: 50%;
-  }
-
-.margin{
-  background-color: #030a08;
- 
 }
+
+.margin {
+  background-color: #030a08;
+}
+
 .loginBackground {
   position: fixed;
   top: 0;
@@ -25,27 +22,32 @@
   flex-direction: column;
 }
 
-
 .loginContainer {
-  background-color: #58a093;
-  padding: 20px;
+  background-color: var(--color-darkslategray-200);
+  color: #fff;
   margin-top: 5px;
   border-radius: 5px;
   width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
+  padding: 10px;
+  
 }
 
 .loginTitle {
   text-align: center;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .formField {
   margin-bottom: 20px;
   margin-top: 15px;
-  
   text-align: center;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 input {
@@ -84,4 +86,31 @@ input:focus {
 
 .loginButton:active {
   background-color: #567b69;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    max-width: 100%;
+  }
+  .loginTitle {
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .formField {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .loginContainer {
+  align-items: center;
+  padding-bottom: 20%;
+  
+  
+  }
+  .loginButton{
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 24px;
+  }
 }

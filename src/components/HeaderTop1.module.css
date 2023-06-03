@@ -110,25 +110,13 @@
   letter-spacing: 0.13px;
   line-height: 19.67px;
 }
-.botao11 {
-  border-radius: var(--br-5xs);
-  background: linear-gradient(214.58deg, #00cb08, #00bf6f);
-  width: 121px;
-  height: 40px;
-  overflow: hidden;
-  flex-shrink: 0;
-  padding: 11.12930965423584px 14.839079856872559px;
-  box-sizing: border-box;
-  justify-content: center;
-}
-.botao1,
-.botao11,
+.botao2,
 .frameParent {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.botao1 {
+.botao2 {
   border-radius: var(--br-5xs);
   background: linear-gradient(214.58deg, #00cb08, #00bf6f);
   width: 121px;
@@ -143,9 +131,7 @@
   color: var(--color-gray-1000);
 }
 .frameParent {
-  position: absolute;
-  top: 15px;
-  left: 856px;
+  position: unset;
   width: 551px;
   justify-content: flex-end;
   gap: var(--gap-4xl);
@@ -172,4 +158,51 @@
   font-size: 6.06px;
   color: var(--text);
   font-family: var(--font-poppins);
+  display: flex;
+}
+
+/* Estilos para dispositivos com largura menor ou igual a 768 pixels */
+@media (max-width: 768px) {
+  .frameParent {
+    top: 15px;
+    left: 16px;
+    width: auto;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .logoSaurobet11 {
+    top: 14px;
+    left: 16px;
+    width: 120px;
+    height: 31px;
+  }
+
+  .header {
+    width: 100%;
+  }
+}
+
+/* Estilos para dispositivos com largura menor ou igual a 480 pixels */
+@media (max-width: 480px) {
+  .frameParent {
+    top: 15px;
+    left: 16px;
+    width: auto;
+    justify-content: center;
+    gap: 5px;
+    
+  }
+
+  .logoSaurobet11 {
+    top: 14px;
+    left: 16px;
+    width: 90px;
+    height: 23px;
+  }
+
+  .header {
+    width: 100%;
+    font-size: 12px;
+  }
 }

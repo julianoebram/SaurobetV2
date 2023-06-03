@@ -95,3 +95,74 @@
   color: var(--color-lavender);
   font-family: var(--font-poppins);
 }
+button:hover {
+  background: linear-gradient(214.58deg, #00cb08, #00bf6f);
+  
+}
+
+@media (max-width: 768px) {
+  .frameContainer {
+    position: static;
+    flex-direction: row;
+    gap: 7.42px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .frameGroup,
+  .frameDiv,
+  .frameChild {
+    position: static;
+    width: auto;
+    height: auto;
+    top: auto;
+    left: auto;
+  }
+
+  .frameParent {
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: initial;
+    text-align: center;
+    font-size: initial;
+    color: initial;
+    font-family: initial;
+    display: none;
+  }
+
+  .bnusDirioParent {
+    position: static;
+    width: auto;
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: initial;
+  }
+
+  .bnusDirio {
+    position: static;
+    text-transform: none;
+    font-weight: initial;
+  }
+
+  .top10Hoje {
+    position: static;
+    top: auto;
+    left: auto;
+    text-transform: none;
+    font-weight: initial;
+  }
+
+  .tShirtParent {
+    position: static;
+    cursor: initial;
+    border: initial;
+    padding: initial;
+    background-color: initial;
+    border-radius: initial;
+    flex-direction: initial;
+    align-items: initial;
+    gap: initial;
+  }
+}

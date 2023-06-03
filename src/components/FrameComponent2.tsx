@@ -256,52 +256,60 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
           <div className={styles.frameChild} style={rectangleDivStyle} />
           <div className={styles.frameWrapper}>
             <div className={styles.premierLeagueWrapper}>
-              <div className={styles.premierLeague}>Premier League</div>
+              <div className={styles.premierLeague}>Premier League (NOME LIGA)</div>
             </div>
           </div>
         </div>
         <div className={styles.parent}>
           <div className={styles.div} style={divStyle}>
-            1
+             
           </div>
           <div className={styles.frameChild} style={rectangleDiv1Style} />
           <div className={styles.div} style={xStyle}>
-            X
+          BET1
+
           </div>
           <div className={styles.frameChild} style={rectangleDiv2Style} />
           <div className={styles.div} style={div1Style}>
-            2
+          BET2
+
           </div>
           <div className={styles.frameChild} style={rectangleDiv3Style} />
           <div className={styles.div} style={hDPStyle}>
-            HDP
+          BET3
+
           </div>
           <div className={styles.frameChild} style={rectangleDiv4Style} />
           <div className={styles.div} style={div2Style}>
-            1
+          BET4
+
           </div>
           <div className={styles.frameChild} style={rectangleDiv5Style} />
           <div className={styles.div} style={div3Style}>
-            2
+          BET5
+
           </div>
           <div className={styles.frameChild} style={rectangleDiv6Style} />
           <div className={styles.div} style={oUStyle}>
-            O/U
+          BET6
+
           </div>
           <div className={styles.frameChild} style={rectangleDiv7Style} />
           <div className={styles.under} style={uNDERStyle}>
-            UNDER
+          BET7
+
           </div>
           <div className={styles.frameChild} style={rectangleDiv8Style} />
           <div className={styles.under} style={oVERStyle}>
-            OVER
+          BET8
+
           </div>
         </div>
       </div>
       <div className={styles.frameContainer} style={frameDiv5Style}>
         <div className={styles.tShirtParent}>
           <div className={styles.aprParent}>
-            <div className={styles.apr}>18 Apr</div>
+            <div className={styles.apr}>18 Abril</div>
             <div className={styles.apr}>12:00</div>
           </div>
           <div className={styles.frameChild6} style={rectangleDiv9Style} />
@@ -313,7 +321,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
           </div>
         </div>
         <div className={styles.group}>
-          <div className={styles.div}>2.88</div>
+          <div className={styles.div}> </div>
           <div className={styles.frameChild7} />
           <div className={styles.div}>2.88</div>
           <div className={styles.frameChild7} />
@@ -335,7 +343,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
       <div className={styles.frameParent1} style={frameDiv6Style}>
         <div className={styles.tShirtParent}>
           <div className={styles.aprParent}>
-            <div className={styles.apr}>18 Apr</div>
+            <div className={styles.apr}>18 Abril</div>
             <div className={styles.apr}>12:00</div>
           </div>
           <div className={styles.frameChild6} style={rectangleDiv10Style} />
@@ -347,7 +355,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
           </div>
         </div>
         <div className={styles.group}>
-          <div className={styles.div}>2.88</div>
+          <div className={styles.div}> </div>
           <div className={styles.frameChild7} />
           <div className={styles.div}>2.88</div>
           <div className={styles.frameChild7} />
@@ -381,7 +389,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
           </div>
         </div>
         <div className={styles.group}>
-          <div className={styles.div}>2.88</div>
+          <div className={styles.div}> </div>
           <div className={styles.frameChild7} />
           <div className={styles.div}>2.88</div>
           <div className={styles.frameChild7} />
@@ -415,7 +423,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
           </div>
         </div>
         <div className={styles.group}>
-          <div className={styles.div}>2.88</div>
+          <div className={styles.div}> </div>
           <div className={styles.frameChild7} />
           <div className={styles.div}>2.88</div>
           <div className={styles.frameChild7} />
@@ -449,7 +457,7 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
           </div>
         </div>
         <div className={styles.group}>
-          <div className={styles.div}>2.88</div>
+          <div className={styles.div}> </div>
           <div className={styles.frameChild7} />
           <div className={styles.div}>2.88</div>
           <div className={styles.frameChild7} />

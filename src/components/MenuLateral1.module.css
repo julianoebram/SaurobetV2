@@ -17,3 +17,8 @@
   color: var(--color-lavender);
   font-family: var(--font-poppins);
 }
+@media (max-width: 768px) {
+  .menuLateral {
+    display: none;
+  }
+} 

@@ -1,5 +1,5 @@
 .nossosJogos {
-  position: absolute;
+  
   top: 0;
   left: 20px;
   text-transform: uppercase;
@@ -22,10 +22,12 @@
 .gameSlotContainer,
 .frameChild {
   border-radius: var(--br-5xs);
-  width: 228px;
-  height: 324px;
+  width: 16%;
+  height: 300px;
 }
 .gameSlotContainer {
+  max-height: 80vh;
+  
   display: flex;
   flex-direction: column;
   padding: var(--padding-5xl) var(--padding-xl);
@@ -58,6 +60,14 @@
 
 .sweetBonanza {
   background-image: url(https://www.nettikasino247.com/wp-content/uploads/2019/12/sweet-bonanza.jpg);   
+}
+.fortuneOx,
+.fortuneTiger,
+.spaceman,
+.sweetBonanza {
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -104,18 +114,45 @@
 .rollJogos {
   position: absolute;
   left: 0;
-  width: 1248px;
+  width: 100%;
 }
-.frameParent {
-  top: 54px;
-  height: 324px;
+.frameParent1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-8xl);
-  font-size: 26.39px;
+  gap: 30px;
+  margin-bottom: 50px;
 }
+
+.frameParent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.frameParent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.frameParent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+
 .imagemJogo,
 .rollJogos {
   top: -37px;
@@ -124,10 +161,44 @@
 .imagemJogo {
   top: 593px;
   left: 278px;
-  width: 1328px;
+  width: 100%;
+  display: flex;
   height: 341px;
   text-align: left;
   font-size: var(--font-size-5xl);
   color: var(--text);
   font-family: var(--font-poppins);
+}
+
+@media (max-width: 768px) {
+  .nossosJogos {
+    width: 100%;
+  }
+
+  .gameSlotContainer,
+  .frameChild {
+    width: 80%;
+    height: 400px;
+    left:0;
+  }
+
+  .frameParent1,
+  .frameParent2,
+  .frameParent3,
+  .frameParent4 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-8xl);
+  }
+
+  .rollJogos {
+    height: auto;
+  }
+  .imagemJogo{
+    left: 0;
+    margin: 5px;
+    top: 9%;
+
+  }
 }

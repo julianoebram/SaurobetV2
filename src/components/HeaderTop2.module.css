@@ -1,22 +1,75 @@
-.logoSaurobet11 {
-  position: absolute;
-  top: 14px;
-  left: 68px;
-  width: 161px;
-  height: 42px;
-  object-fit: cover;
+.menuChild,
+.menuItem {
+  left: 0;
+  border-radius: 9.09px;
+  background-color: var(--color-gainsboro);
+  height: 4.13px;
 }
-.frameWrapper {
-  width: 42px;
-  height: 42px;
-  display: flex;
-  flex-direction: column;
-  padding: var(--padding-8xs) var(--padding-0);
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: flex-start;
+.menuChild {
+  position: absolute;
+  top: 7.43px;
+  width: 23.96px;
+}
+.menuItem {
+  top: 0;
+}
+.menu,
+.menuInner,
+.menuItem,
+.vectorIcon {
+  position: absolute;
+  width: 23.96px;
+}
+.menuInner {
+  top: 14.87px;
+  left: 0;
+  border-radius: 9.09px;
+  background-color: var(--color-gainsboro);
+  height: 4.13px;
+}
+.menu,
+.vectorIcon {
+  top: 25px;
+  left: 26px;
+  height: 19px;
+}
+.vectorIcon {
+  top: 5.09px;
+  left: 0;
+  width: 26.18px;
+  height: 21.09px;
+}
+.div,
+.frameChild {
+  position: absolute;
+  top: 1.45px;
 }
 .frameChild {
+  left: 0.73px;
+  border-radius: 50%;
+  background-color: var(--color-orangered);
+  width: 8.73px;
+  height: 8.73px;
+}
+.div {
+  left: 4.36px;
+  font-weight: 500;
+}
+.ellipseParent,
+.vectorParent {
+  position: absolute;
+  top: 0;
+  left: 21.09px;
+  width: 10.18px;
+  height: 13.09px;
+}
+.vectorParent {
+  top: 5px;
+  left: 6px;
+  width: 31px;
+  height: 31px;
+}
+.frameWrapper {
   position: relative;
   width: 42px;
   height: 42px;
@@ -54,12 +107,8 @@
 }
 .depositar {
   position: relative;
-  font-size: 13.41px;
   letter-spacing: 0.13px;
   line-height: 19.67px;
-  font-family: var(--font-poppins);
-  color: var(--color-gray-1000);
-  text-align: left;
 }
 .botao2,
 .frameParent {
@@ -68,32 +117,46 @@
   align-items: center;
 }
 .botao2 {
-  cursor: pointer;
-  border: 0;
-  padding: 11.12930965423584px 14.839079856872559px;
-  background-color: transparent;
   border-radius: var(--br-5xs);
   background: linear-gradient(214.58deg, #00cb08, #00bf6f);
   width: 121px;
   height: 40px;
   overflow: hidden;
   flex-shrink: 0;
+  padding: 11.12930965423584px 14.839079856872559px;
   box-sizing: border-box;
   justify-content: center;
+  text-align: left;
+  font-size: 13.41px;
+  color: var(--color-gray-1000);
+}
+button:hover {
+  background: linear-gradient(214.58deg, #00cb08, #00bf6f);
+  
 }
 .frameParent {
-  position: absolute;
-  top: 15px;
-  left: 856px;
+  position: relative;
+  top: auto;
+  left: 25%;
   width: 551px;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
   gap: var(--gap-4xl);
+}
+.logoSaurobet11 {
+  position: absolute;
+  top: 14px;
+  left: 68px;
+  width: 161px;
+  height: 42px;
+  object-fit: cover;
 }
 .header {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--color-gray-1300);
+  background-color: var(--color-gray-300);
   border: 1px solid var(--color-darkslategray-100);
   box-sizing: border-box;
   width: 1440px;
@@ -103,4 +166,63 @@
   font-size: 6.06px;
   color: var(--text);
   font-family: var(--font-poppins);
+}
+.frameChildLogin{
+  margin-left: -10px;
+}
+
+
+
+@media (max-width: 768px) {
+  .frameParent {
+    top: 15px;
+    left: 16px;
+    width: auto;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .logoSaurobet11 {
+    left:0;
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  .frameParent {
+    position: absolute;
+    top: 0.75vw;
+    left: 50%;
+    width: 80%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-mid);
+  }
+
+  
+  .hideOnMobile {
+    display: none;
+  }
+ 
+  button:hover {
+    background: linear-gradient(214.58deg, #00cb08, #00bf6f);
+    
+  }
+  .header {
+    width: 100%;
+    font-size: 12px;
+  }
+  .frameChildLogin{
+    margin-left: -3px;
+  }
+  .tShirtParent {   
+    left: 50%;
+    width: 20%;
+    font-size: 0;
+    align-items: center;
+  }
+  .botao2{
+    width: 25%;
+    font-size:12px ;
+   text-align: center;
+  }
 }

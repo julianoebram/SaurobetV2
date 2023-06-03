@@ -26,7 +26,8 @@
 }
 
 .cadastroContainer {
-  background-color: #58a093;
+  background-color: var(--color-darkslategray-200);
+  color: white;
   padding-top: 20px;
   padding-bottom: 10px;
   border-radius: 5px;
@@ -84,4 +85,30 @@ input {
 
 input:focus {
   border-bottom-color: #4a90e2;
+}
+@media (max-width: 768px) {
+  .logo {
+    max-width: 100%;
+  }
+  .cadastroTitle {
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .formField {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .cadastroContainer {
+  align-items: center;
+  padding-bottom: 20%;
+  
+  
+  }
+  .cadastroButton{
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 24px;
+  }
 }

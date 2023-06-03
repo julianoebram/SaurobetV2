@@ -132,8 +132,8 @@
 }
 .frameParent {
   position: absolute;
-  top: 521px;
-  left: 181px;
+  top: 25%;
+  left: 22%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -144,3 +144,73 @@
   color: var(--text);
   font-family: var(--font-poppins);
 }
+@media (max-width: 768px) {
+  .frameChild,
+  .frameChild6,
+  .frameChild7 {
+    width: 80%;
+    height: auto;
+  }
+  .frameParent {
+    overflow-x: auto;
+  }
+  .frameGroup {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+ 
+  .frameGroup > div {
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .tShirtParent {
+    width: 100%;
+    
+    align-items: flex-start;
+    gap: var(--gap-mid);
+  }
+  
+  .frameParent {
+    left: 2%;
+    position: relative;
+    top: 9%;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .frameGroup {
+    padding: var(--padding-6xs) 21.941509246826172px;
+    font-size: var(--font-size-base);
+    position: relative;
+    left: 15%;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-mid);
+    
+  }
+  
+  .parent {
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    
+  }
+  
+  .frameContainer,
+  .frameParent1 {
+    width: auto;
+    padding: var(--padding-6xs) 21.941509246826172px;
+  }
+  
+  .homeEsportes {
+    height: auto;
+  }
+}
+

@@ -261,3 +261,83 @@
   color: var(--text);
   font-family: var(--font-poppins);
 }
+
+@media (max-width: 768px) {
+  .frameChild {
+    width: 100%;
+    height: auto;
+  }
+  
+  .icon {
+    width: 100%;
+    height: auto;
+  }
+  
+  .rectangleParent {
+    width: 90%;
+    height: 300px;
+    left: 2%;
+    margin: 0px;
+  }
+  
+  .frameParent {
+    top: 120px;
+    left: 0;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  .frameGroup {
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-mid);
+  }
+  
+  .rectangleGroup {
+    top: 200px;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .tShirtParent2,
+  .tShirtParent7 {
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .searchbar {
+    top: 50px;
+    left: 20px;
+    width: calc(100% - 40px);
+  }
+  
+  .frameContainer {
+    top: 280px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: auto;
+  }
+  
+  .ellipseParent {
+    top: 80px;
+    left: 20px;
+  }
+  
+  .ellipseGroup {
+    top: 130px;
+    left: 20px;
+  }
+  
+  .homeEsportes {
+    height: 4000px;
+  }
+}
+.championsAquiParent {
+ left: 6%;
+ position: relative;
+}

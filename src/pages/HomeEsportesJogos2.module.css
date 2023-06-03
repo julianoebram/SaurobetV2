@@ -1,37 +1,42 @@
 .tShirtIcon {
   position: relative;
-  width: 18.55px;
-  height: 18.55px;
+  width: 1.855vw;
+  height: 1.855vw;
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .esportes {
   position: relative;
   font-weight: 500;
 }
+
 .tShirtGroup,
 .tShirtParent {
   border-radius: var(--br-5xs);
   background-color: var(--color-gray-200);
-  height: 40px;
+  height: 2.61vw;
   display: flex;
   flex-direction: row;
-  padding: 11.12930965423584px 14.839079856872559px;
+  padding: 1.1129vw 1.4839vw;
   box-sizing: border-box;
   align-items: center;
   justify-content: flex-start;
-  gap: 7.42px;
+  gap: 0.742vw;
 }
+
 .tShirtGroup {
   background-color: var(--color-gray-100);
 }
+
 .tShirtIcon4 {
   position: relative;
-  width: 18px;
-  height: 18px;
+  width: 1.8vw;
+  height: 1.8vw;
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .frameParent,
 .tShirtParent2,
 .tShirtParent3,
@@ -42,37 +47,43 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .frameParent {
-  top: 15px;
-  left: 248px;
+  top: 1.5vw;
+  left: 6.28vw;
   align-items: flex-start;
   gap: var(--gap-mid);
 }
+
 .tShirtParent2,
 .tShirtParent3,
 .tShirtParent4,
 .tShirtParent5 {
-  top: 102px;
-  left: 139px;
+  top: 10.2vw;
+  left: 8.9vw;
   border-radius: var(--br-5xs);
-  height: 40px;
-  padding: 11.12930965423584px 14.839079856872559px;
+  height: 2.61vw;
+  padding: 1.1129vw 1.4839vw;
   box-sizing: border-box;
   align-items: center;
-  gap: 7.42px;
+  gap: 0.742vw;
 }
+
 .tShirtParent3,
 .tShirtParent4,
 .tShirtParent5 {
-  top: 417px;
+  top: 41.7vw;
 }
+
 .tShirtParent4,
 .tShirtParent5 {
-  top: 732px;
+  top: 73.2vw;
 }
+
 .tShirtParent5 {
-  top: 1047px;
+  top: 104.7vw;
 }
+
 .homeEsportesJogos2 {
   position: relative;
   background-color: var(--color-gray-300);

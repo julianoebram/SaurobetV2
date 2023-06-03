@@ -1,33 +1,36 @@
 .homeCassinoChild {
-  position: absolute;
-  top: 95px;
-  left: 278px;
+  position: relative;
+  top: auto;
+  left: 25%;
   border-radius: var(--br-xs);
-  width: 1129px;
-  height: 249px;  
+  width: 81.5%;
+  height: 17.9%;
   object-fit: cover;
 }
+
 .aposteAgoraGanhe,
 .saibaMais {
   position: relative;
   font-weight: 500;
 }
+
 .saibaMais {
-  font-size: 16.45px;
-  letter-spacing: 0.19px;
-  line-height: 27.85px;
+  font-size: 1.6vw;
+  letter-spacing: 0.019vw;
+  line-height: 2.785vw;
   font-family: var(--font-poppins);
   color: var(--text);
   text-align: left;
-  text-shadow: 0 5.062802314758301px 5.06px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 0.506vw 0.506vw rgba(0, 0, 0, 0.25);
 }
+
 .botao2 {
   cursor: pointer;
   border: 0;
-  padding: 12.726252555847168px 35.448184967041016px;
+  padding: 1.2726vw 3.5448vw;
   background-color: var(--color-gray-100);
-  border-radius: 62.89px;
-  height: 51.89px;
+  border-radius: 6.289vw;
+  height: 5.189vw;
   overflow: hidden;
   flex-shrink: 0;
   display: flex;
@@ -36,56 +39,69 @@
   align-items: center;
   justify-content: center;
 }
+
 .aposteAgoraGanheESaqueParent {
   position: absolute;
-  top: 155px;
-  left: 333px;
+  top: 5%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: var(--gap-23xl);
+  border-radius: 20px;
+  background: url(/public/rectangle-1543@2x.png);
+  padding: 20px;
+  gap: 2.3vw;
   text-align: left;
-  font-size: 31.34px;
+  font-size: 3.134vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-wrap: nowrap;
+  align-items: flex-start;
 }
+
 .imagemJogo {
   position: absolute;
-  top: 593px;
-  left: 1298px;
-  width: 228px;
-  height: 201px;
+  top: 39.9vw;
+  left: 71.8vw;
+  width: 22.8vw;
+  height: 20.1vw;
 }
+
 .frameChild,
 .frameItem {
   position: relative;
-  border-radius: 7.47px;
-  width: 184px;
-  height: 5px;
+  border-radius: 0.747vw;
+  width: 18.4vw;
+  height: 0.5vw;
 }
+
 .frameChild {
   background-color: var(--text);
 }
+
 .frameItem {
   background: linear-gradient(238.97deg, #00fa0a, #0046fa);
 }
+
 .rectangleParent {
-  position: absolute;
-  top: 325px;
-  left: 468px;
-  height: 7px;
+  position: relative;
+  top: 15vw;
+  left: 31.4vw;
+  height: 0.7vw;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 7.47px;
+  gap: 0.747vw;
 }
+
 .tShirtIcon {
   position: relative;
-  width: 18.55px;
-  height: 18.55px;
+  width: 1.855vw;
+  height: 1.855vw;
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .esportes {
   position: relative;
   font-size: var(--font-size-sm);
@@ -94,151 +110,316 @@
   color: var(--text);
   text-align: center;
 }
+
 .tShirtGroup,
 .tShirtParent {
   cursor: pointer;
   border: 0;
-  padding: 11.12930965423584px 14.839079856872559px;
-  height: 40px;
+  padding: 1.1129vw 1.4839vw;
+  height: 4vw;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
   align-items: center;
   justify-content: flex-start;
-  gap: 7.42px;
+  gap: 0.742vw;
 }
+
 .tShirtParent {
   background-color: var(--color-gray-100);
   border-radius: var(--br-5xs);
 }
+.tShirtParent2 {
+  width: 10%; 
+}
+
 .tShirtGroup {
   background-color: var(--color-darkslategray-200);
-  border-radius: 7.42px;
+  border-radius: 0.742vw;
 }
+
 .tShirtIcon4 {
   position: relative;
-  width: 18px;
-  height: 18px;
+  width: 1.8vw;
+  height: 1.8vw;
   overflow: hidden;
   flex-shrink: 0;
 }
-.frameParent {
-  position: absolute;
-  top: 15px;
-  left: 248px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-mid);
-}
+
 .tShirtIcon5 {
   position: relative;
-  width: 21.21px;
-  height: 21.21px;
+  width: 2.121vw;
+  height: 2.121vw;
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .tShirtParent2,
 .tShirtParent7 {
   cursor: pointer;
   border: 0;
-  padding: 12.726252555847168px 35.448184967041016px;
+  padding: 1vw 3vw;
   background-color: var(--color-gray-200);
-  border-radius: 62.89px;
-  height: 45.74px;
+  border-radius: 6.289vw;
+  height: 4.574vw;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
   align-items: center;
-  justify-content: flex-start;
-  gap: 8.48px;
+  justify-content: center;
+  gap: 0.848vw;
 }
+
 .tShirtParent7 {
   background-color: var(--color-gray-100);
 }
+
 .frameContainer {
-  width: 1017px;
+  max-width: 100%; 
   flex-direction: row;
   justify-content: space-between;
+  display: flex;
 }
+
+
 .frameContainer,
 .frameGroup,
 .searchbar {
   display: flex;
   align-items: center;
 }
+
 .searchbar {
-  border: 0.8px solid var(--color-darkslategray-100);
+  border: 0.08vw solid var(--color-darkslategray-100);
   font-weight: 500;
   font-family: var(--font-poppins);
   font-size: var(--font-size-lg);
   background-color: var(--color-gray-200);
   border-radius: var(--br-39xl);
   box-sizing: border-box;
-  width: 756.55px;
-  height: 41.55px;
+  width: 62%; /* Alterado para 80% */
+  height: 2.61vw;
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: row;
   padding: var(--padding-3xs) var(--padding-6xl);
   justify-content: space-between;
 }
+
 .frameGroup {
   position: absolute;
-  top: 368px;
-  left: 334px;
-  width: 1017px;
-  height: 119px;
-  flex-direction: column;
-  justify-content: center;
-  gap: 33px;
+  top: 15%; 
+  left: 25%; 
+  width: 80%; 
+  height: 11.9%; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  gap: 3.3%; 
 }
+
 .div,
 .ellipseDiv {
   position: absolute;
-  top: 2px;
+  top: 0.2vw;
 }
+
 .ellipseDiv {
-  left: 1px;
+  left: 0.1vw;
   border-radius: 50%;
   background-color: var(--color-orangered);
-  width: 12px;
-  height: 12px;
+  width: 1.2vw;
+  height: 1.2vw;
 }
+
 .div {
-  left: 6px;
+  left: 0.6vw;
   font-weight: 500;
 }
+
+
 .ellipseParent {
   position: absolute;
-  top: 118px;
-  left: 111px;
-  width: 14px;
-  height: 18px;
+  top: 6.1vw;
+  left: 6.1vw;
+  width: 1.4vw;
+  height: 1.8vw;
 }
+
 .div1 {
   position: absolute;
-  top: 2px;
-  left: 5px;
+  top: 0.2vw;
+  left: 0.5vw;
   font-weight: 500;
 }
+
 .ellipseGroup {
   position: absolute;
-  top: 167px;
-  left: 111px;
-  width: 14px;
-  height: 18px;
+  top: 8.4vw;
+  left: 6.1vw;
+  width: 1.4vw;
+  height: 1.8vw;
 }
+
 .homeCassino {
   position: relative;
   background-color: var(--color-gray-300);
   width: 100%;
-  height: 1480px;
+  height: 2000px;
   overflow: hidden;
   text-align: center;
-  font-size: 8.33px;
+  font-size: 0.833vw;
   color: var(--text);
   font-family: var(--font-poppins);
-  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+@media (max-width: 768px) {
+  .homeCassinoChild {
+    position: relative;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .aposteAgoraGanhe,
+  .saibaMais {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  .botao2 {
+    padding: 10px 20px;
+    height: 40px;
+  }
+  
+  .aposteAgoraGanheESaqueParent {
+    padding: 10px;
+    width: 80%;
+    font-size: 20px;
+    top: 2%;
+
+  }
+  
+  .imagemJogo {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+  }
+  
+  .frameChild,
+  .frameItem {
+    width: 50px;
+    height: 5px;
+  }
+  
+  .rectangleParent {
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+  }
+  
+  .tShirtIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .esportes {
+    font-size: 14px;
+  }
+  
+  .tShirtGroup,
+  .tShirtParent {
+    padding: 10px 20px;
+    height: 40px;
+  }
+  
+  .tShirtParent2,
+  .tShirtParent7 {
+    padding: 10px 30px;
+    height: 30px;
+  }
+  
+  .frameContainer,
+  .frameGroup,
+  .searchbar {
+    flex-direction: row;
+    padding: 2px;
+    left: 0;
+    gap: 20px;
+    margin-top: -40px;
+    height: 20px;
+    width: 100%;
+    top: 6.5%;
+
+
+  }
+  
+  .searchbar {
+    width: 100%;
+    height: 50px;
+    padding: 5px 10px;
+    margin: auto;
+  }
+  
+  .div,
+  .ellipseDiv {
+    top: 2px;
+  }
+  
+  .ellipseDiv {
+    left: 1px;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .div {
+    left: 6px;
+  }
+  
+  .ellipseParent {
+    top: 10px;
+    left: 10px;
+    width: 14px;
+    height: 18px;
+  }
+  
+  .div1 {
+    top: 2px;
+    left: 5px;
+  }
+  
+  .ellipseGroup {
+    top: 14px;
+    left: 10px;
+    width: 14px;
+    height: 18px;
+  }
+  
+  .homeCassino {
+    font-size: 10px;
+    height: 4000px;
+  }
+
+  .tShirtIcon5 {
+    width: 20px;
+    height: 20px;
+    gap:10px;
+  }
+  .tShirtParent7{
+    visibility: hidden;
+  }
+
+
+
+
+
+}
+
